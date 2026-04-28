@@ -29,7 +29,6 @@ void setup() {
 
   TCPserver.begin();
 }
-
 void loop() {
   // 1. Cek apakah ada client yang mencoba terhubung
   WiFiClient client = TCPserver.available();
@@ -72,6 +71,9 @@ void loop() {
 
     // 4. Tutup koneksi setelah client selesai mengirim
     client.stop();
+    Serial.println("<<< Client Terputus");
+  }
+}
     Serial.println("<<< Client Terputus");
   }
 }
