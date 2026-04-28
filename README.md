@@ -49,11 +49,11 @@ ESP32 adalah mikrokontroler dengan WiFi dan Bluetooth terintegrasi. Dalam proyek
 
     ![Rangkaian DHT](skema-rangkaian.png)
 
-1. **Program Komunikasi Transmitter** lihat programnya di sini:  [Klik di sini untuk lihat program Transmitter](src/transmitter/transmitter.ino)
+1. **Program Komunikasi Transmitter** lihat programnya di sini:  [Klik di sini untuk lihat program Transmitter](komunikasi_transmitter.ino)
 
-2. **Program Komunikasi Receiver** lihat programnya di sini:
-3. **Program pengiriman data sensor DHT** lihat programnya di sini:
-4. **Program Penerimaan data sensor DHT** lihat programnya di sini:
+2. **Program Komunikasi Receiver** lihat programnya di sini:  [Klik di sini untuk lihat program Receiver](komunikasi_receiver.ino)
+3. **Program pengiriman data sensor DHT** lihat programnya di sini:[Klik di sini untuk lihat program pengiriman data sensor DHT](transmitter_sensor_DHT.ino)
+4. **Program Penerimaan data sensor DHT** lihat programnya di sini:[Klik di sini untuk lihat program Receiver](Receiver_sensor_DHT.ino)
     
 
 ---
