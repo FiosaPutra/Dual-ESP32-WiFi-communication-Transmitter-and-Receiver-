@@ -43,6 +43,18 @@ ESP32 adalah mikrokontroler dengan WiFi dan Bluetooth terintegrasi. Dalam proyek
 - Pastikan rangkaian benar sebelum menghubungkan ke sumber tegangan.
 - Bekerja pada area yang kering dan bebas dari benda logam yang dapat menyebabkan korsleting.
 - Periksa kembali tegangan kerja (3.3V untuk GPIO ESP32).
+ ## Langkah Kerja
+
+    rangkailah terlebih dahulu rangkaian led dan Sensor DHT ke bread board. 
+
+    ![Rangkaian DHT](skema-rangkaian.png)
+
+1. **Program Komunikasi Transmitter** lihat programnya di sini:  [Klik di sini untuk lihat program Transmitter](src/transmitter/transmitter.ino)
+
+2. **Program Komunikasi Receiver** lihat programnya di sini:
+3. **Program pengiriman data sensor DHT** lihat programnya di sini:
+4. **Program Penerimaan data sensor DHT** lihat programnya di sini:
+    
 
 ---
 *Proyek ini dibuat untuk tujuan edukasi dalam pemahaman perangkat IoT.*
