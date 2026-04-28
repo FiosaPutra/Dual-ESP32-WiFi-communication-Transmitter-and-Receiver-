@@ -47,7 +47,7 @@ ESP32 adalah mikrokontroler dengan WiFi dan Bluetooth terintegrasi. Dalam proyek
 
     rangkailah terlebih dahulu rangkaian led dan Sensor DHT ke bread board. 
 
-    ![Rangkaian DHT](WEBSERVER.png)
+   <img src="WEBSERVER.png" width="500"/>
 
 1. **Program Komunikasi Transmitter** lihat programnya di sini:  [Klik di sini untuk lihat program Transmitter](komunikasi_transmitter.ino)
 
